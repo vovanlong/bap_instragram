@@ -13,8 +13,12 @@
             </strong>
           </h5>
             <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+<<<<<<< HEAD
             <%= render 'shared/devisemes' %>
             <!-- <%= devise_error_messages! %> -->
+=======
+            <%= devise_error_messages! %>
+>>>>>>> true-1
             <div class="form-group">
               <%= f.text_field :name, autofocus: true, placeholder: "Your name", class: "form-control" %>
             </div>
