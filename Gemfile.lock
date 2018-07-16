@@ -97,11 +97,15 @@ GEM
       warden (~> 1.2.3)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
+    dropzonejs-rails (0.7.4)
+      rails (> 3.1)
     erubi (1.7.1)
     execjs (2.7.0)
     ffi (1.9.25)
     figaro (1.1.1)
       thor (~> 0.14)
+    font-awesome-rails (4.7.0.4)
+      railties (>= 3.2, < 6.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     hashie (3.5.7)
@@ -269,7 +273,9 @@ DEPENDENCIES
   cloudinary
   coffee-rails (~> 4.2)
   devise
+  dropzonejs-rails
   figaro
+  font-awesome-rails
   jbuilder (~> 2.5)
   jquery-rails (~> 4.3, >= 4.3.3)
   listen (>= 3.0.5, < 3.2)

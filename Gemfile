@@ -18,6 +18,8 @@ gem 'omniauth-twitter'
 gem 'carrierwave', '~> 1.0'
 gem 'cloudinary'
 gem 'figaro'
+gem 'dropzonejs-rails'
+gem "font-awesome-rails"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
